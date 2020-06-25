@@ -14,6 +14,6 @@ resource "aws_vpc" "terraformVPC" {
     enable_dns_support = "true"
     enable_dns_hostnames = "false"
     tags = {
-        Name = "terraformVPC2"
+        Name = "terraformVPC"
     }
 }
